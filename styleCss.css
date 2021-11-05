@@ -1,0 +1,335 @@
+* {
+  margin: 0;
+  padding: 0; }
+
+body {
+  background-color: white;
+  font-family: sans-serif;
+  height: 100vh; }
+header {
+  background-image: linear-gradient( #2525e9c5, rgba(45, 45, 201, 0.644), lightblue, white); }
+a {
+  text-decoration: none;
+  color: black; }
+
+fieldset {
+  color: #0f756b;
+  border: solid 1px black; }
+
+table {
+  color: cyan; }
+footer {
+    background-image: linear-gradient(#1a1ac9, lightblue, white);}
+h1 {
+    grid-area: linea1;
+    margin-top: 5px; }
+h2 {
+    color: darkcyan;
+    font-size: 250%;
+    grid-area: linea2; }
+h3 {
+    grid-area: linea3; }
+p {
+    font-style: unset;
+    color: black;
+    grid-area: linea3; }
+main{
+  grid-area: card;
+}
+li {
+    color: black;
+    font-style: italic;}
+ul li {
+        display: flex; }
+a {
+      grid-area: formulario;
+}
+div{
+  grid-template-areas: linea1;
+}
+article{
+  grid-template-areas: card;
+}
+section{
+  grid-template-areas: form;
+}
+.divVacio {
+    background-color: transparent; }
+.colorF {
+    color: #c0bcbc; }
+.navColor {
+  background-color: #9ccada; }
+.bordesRedondeados {
+  border-radius: 20%; }
+.italica {
+  font-style: italic; }
+.negrita {
+  font-weight: bold; }
+.colorSection {
+  margin: 5px;
+  color: black; }
+.colorBack{
+  background-color: rgba(173, 216, 230, 0.473);}
+.textoRelativo {
+  font-size: 125%; }
+.impact {
+  font-family: Impact, sans-serif; }
+.verdana {
+  font-family: Verdana, Geneva, Tahoma, sans-serif; }
+.centrar {
+  text-align: center; }
+.interLineado {
+  line-height: 1.6; }
+.olCircle {
+  list-style-type: georgian; }
+.colorCaption {
+    color: white;}
+.colorN{
+    color: white;}
+.margenes {
+    margin-top: 10px;
+    margin-right: 20px;
+    margin-bottom: 10px;
+    margin-left: 5px; }
+.padding {
+    padding: 10px 30px 10px 20px; }
+.display {
+    display: inline-block;
+    align-items: center; }  
+.displayInline {
+    display: inline; }
+.padreSection {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-around;
+  align-items: stretch; }
+.menuFlex {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+  align-items: flex-start; }
+.menuFlexLi {
+  display: flex;
+  margin-left: 40px;
+  font-size: 20px;
+  align-items: center; }
+.h2Footer {
+  font-size: 24px; }
+.grillaArea {
+  display: grid;
+  grid-template-areas: "linea1 formulario";}
+.grillaTasaciones{
+  display: grid;
+  grid-template-areas:
+  "card form"}
+.grillaOperacion{
+  display: grid;
+  grid-template-areas: 
+  "carta1 formu"
+  "carta2 formu"
+  "carta3 formu";
+}
+.grillaOperacion .carta1{
+  grid-area: carta1;
+}
+.grillaOperacion .carta1{
+  grid-area: carta2;
+}
+.grillaOperacion .carta1{
+  grid-area: carta3;
+}
+.grillaOperacion .formu{
+  grid-area: formu;
+}
+.form__label {
+  color: #077575; }
+.divColor {
+  color: black; }
+.grad {
+  background-image: linear-gradient(to top, #2525e9c5, rgba(45, 45, 201, 0.644), lightblue, white); }
+.padright{
+  margin-right: 100px;}
+.tamañoImg{
+  width: 100%;
+  max-height: 460px;}
+.img {
+  border-radius: 20px;
+  transition: all;
+  max-height: 13rem; }
+.divContacto1 {
+  width: 60%;
+  margin-left: 5%;
+  vertical-align: top;}
+.transicion2 {
+  transition: all; }
+.transicion2__color {
+  background-color: #65ece1;
+  border: solid 1px black;
+  color: rgba(253, 246, 246, 0.897); }
+.divContacto2{
+  width: 80%;
+  margin: 5% auto;
+  vertical-align: top;
+  }
+.sectionTasa{
+  margin-right: 5%;
+  margin-left: 5%;
+}
+#imgInicio{
+  width: 95%;
+  height: 26rem;
+  border-radius: 5%;}
+#imgC{
+  width: 100%;
+  height: 100%;
+  border-radius: 2%;}
+#sectionT{
+  margin: 2% 40%;}
+#input{
+  width: 20%;
+  display: inline-block;}
+#h1 {
+  font-size: 50px;
+  font-style: inherit;
+  color: #0f756b;
+  margin-top: 10px;
+  text-align: center; }
+#h2 {
+  font-size: 40px;
+  color: lawngreen;
+  font-style: inherit;
+  text-align: center; }
+
+
+
+@media screen and (max-width: 764px) and (min-width: 300px) {
+  body {
+    height: 100vh;}
+  .tamañoImg, .carousel-inner{
+    max-height: 20rem;}
+  .divContacto2{
+    margin: 2% auto;
+  }
+  .ga{
+    height: ;
+  }
+  #imgInicio{
+    height: 17rem;}
+  section div a img{
+    display: none !important;}
+
+  .sectionTasa{
+    display: none !important;
+  }
+  #divT{
+    margin-bottom: 2%;
+  }
+  main{
+    margin: 15% 0%;}
+  .carta1, .carta2, .carta3{
+    display: none !important;
+  }
+  }
+  
+@media screen and (min-width: 765px) and (max-width: 1023px) {
+  .tamañoImg, .carousel-inner{
+    height: 25rem;}
+  body{
+    height: 100vh;}
+  .divContacto1{
+    max-height: 416px;}
+  .divContacto2{
+    max-height: 80% ;}
+  .ga{
+    height: 40rem;
+  }
+  #sectionC{
+    margin: 7% 0%;
+    height: 32rem;
+  }
+  main section {
+    height: 30rem;
+  }
+  main section article img{
+    height: 100%;
+  }
+  article{
+    width: 95%;
+  }
+  main{
+    height: 30rem;
+    margin: 11% 0%;
+  }
+  .carta1, .carta2, .carta3 {
+    height: 20%;
+    width: 70%;
+    margin-left: 2%;
+  }
+  .formu{
+    width: 90%;
+    height: 90%;
+    margin: 0%;
+  }
+  .imgT{
+    width: 100%;
+    height: 12rem;
+    border-radius: 2%;}}
+@media screen and (min-width: 1023px) and (max-width:1439px) {
+  body {
+    height: 100vh;}
+  .carta1, .carta2, .carta3 {
+    height: 20%;
+    width: 70%;
+    margin-left: 2%;
+  }
+  .formu{
+    width: 90%;
+    height: 90%;
+    margin: 0%;
+  }
+  .imgT{
+    width: 100%;
+    height: 12rem;
+    border-radius: 2%;}
+  .colorCard{
+    background-color: lightgray;
+  }
+
+  .divContacto1{
+    height: 80%;
+  }
+  .divContacto2{
+    height: 70%;
+    margin-top: 5%;
+    width: 90%;
+  }
+  article{
+    width: 100%;
+    height: 100%;
+  }
+  #divTasacion{
+    height: 20rem;
+    margin: 5%;
+  }
+  section div div .row{
+    height: 2rem;
+  }
+  #divT{
+    height: 17rem;
+  }
+  main section article img{
+    height: 25rem;
+    }
+  main{
+      height: 25rem;
+      width: 100%;
+      margin: 1% 0%;
+    }
+  main section{
+      height: 25rem;
+    }
+  .sectionTasa{
+    width: 19rem;
+    height: 25rem;}
+  }

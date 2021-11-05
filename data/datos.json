@@ -1,0 +1,17 @@
+[
+    {
+        "idContrato": 123,
+        "nombre": "Juan Espinoza",
+        "valorContrato": 20000
+    },
+    {
+        "idContrato": 124,
+        "nombre":"Maria de las Nieves",
+        "valorContrato": 30000
+    },
+    {
+        "idContrato":125,
+        "nombre":"Josefa Viñedos",
+        "valorContrato": 15200
+    }
+]
