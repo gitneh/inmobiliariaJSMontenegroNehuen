@@ -50,15 +50,32 @@
       </h1>
       <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
         <div class="accordion-body colorBack">
-            <form>
+            <form id="form">
               <div class="col-md-6">
-              <label for="validationCustom03" class="form-label"><strong>Indique el precio</strong></label>
+              <label for="validationCustom03" class="form-label"><strong>Indique el precio del primer año</strong></label>
               <div class="input-group mb-3">
                 <span class="input-group-text">$</span>
-                <input type="text" class="form-control" aria-label="Amount (to the nearest dollar)">
+                <input type="text" id="campo1" class="form-control" aria-label="Amount (to the nearest dollar)">
                 <span class="input-group-text">.00</span>
               </div>
             </div>
+            <div class="col-md-6">
+              <label for="validationCustom03" class="form-label"><strong>Indique el precio del segundo año</strong></label>
+              <div class="input-group mb-3">
+                <span class="input-group-text">$</span>
+                <input type="text" id="campo2" class="form-control" aria-label="Amount (to the nearest dollar)">
+                <span class="input-group-text">.00</span>
+              </div>
+            </div>
+            <div class="col-md-6">
+              <label for="validationCustom03" class="form-label"><strong>Indique el precio del tercer año</strong></label>
+              <div class="input-group mb-3">
+                <span class="input-group-text">$</span>
+                <input type="text" id="campo3" class="form-control" aria-label="Amount (to the nearest dollar)">
+                <span class="input-group-text">.00</span>
+              </div>
+            </div>
+            <div id="tbody"></div>
                   </form>
         </div>
       </div><br>
