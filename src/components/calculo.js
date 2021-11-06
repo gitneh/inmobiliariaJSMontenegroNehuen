@@ -85,9 +85,9 @@ function leer(){
 
     for (let i = 0; i < suma.length; i++) {
         
-        let campo1 = suma[i].campo1;
-        let campo2 = suma[i].campo2;
-        let campo3 = suma[i].campo3;
+        let campo1 = suma[i].document.getElementById('campo1').value;
+        let campo2 = suma[i].document.getElementById('campo2').value;
+        let campo3 = suma[i].document.getElementById('campo3').value;
         let sumaT = campo1+campo2+campo3;
         document.getElementById('tbody').innerHTML += 
         ` 
