@@ -69,7 +69,7 @@ function crear(e) {
         localStorage.setItem('suma', JSON.stringify(campo1+campo2+campo3))
     }else {
         let suma = JSON.parse(localStorage.getItem('suma'))
-        libros.push(suma)
+        suma.push(sumaT)
         localStorage.setItem('suma', JSON.stringify(campo1+campo2+campo3))
     }
     leer();
@@ -83,9 +83,12 @@ function leer(){
 
     document.getElementById('tbody').innerHTML = "";
 
-    for (let i = 0; i < libros.length; i++) {
+    for (let i = 0; i < suma.length; i++) {
         
-        let sumaT = suma[i].campo1+campo2+campo3;
+        let campo1 = suma[i].campo1;
+        let campo2 = suma[i].campo2;
+        let campo3 = suma[i].campo3;
+        let sumaT = campo1+campo2+campo3;
         document.getElementById('tbody').innerHTML += 
         ` 
         <div class="input-group mb-3">
