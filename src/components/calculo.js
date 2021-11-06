@@ -51,9 +51,10 @@
 //         console.log('No se encontraron datos en local')
 //     }
 // }
+
+document.getElementById('form').addEventListener('submit',crear);
 function crear(e) {
     e.preventDefault();
-    // Capturando valores del input
     let campo1 = document.getElementById('campo1').value;
     let campo2 = document.getElementById('campo2').value;
     let campo3 = document.getElementById('campo3').value;
