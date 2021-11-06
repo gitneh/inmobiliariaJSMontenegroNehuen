@@ -66,11 +66,11 @@ function crear(e) {
 
         let suma = [];
         suma.push(sumaT)
-        localStorage.setItem('suma', JSON.stringify(campo1+campo2+campo3))
+        localStorage.setItem('suma', JSON.stringify(suma))
     }else {
         let suma = JSON.parse(localStorage.getItem('suma'))
         suma.push(sumaT)
-        localStorage.setItem('suma', JSON.stringify(campo1+campo2+campo3))
+        localStorage.setItem('suma', JSON.stringify(suma))
     }
     leer();
     document.getElementById('form').reset();
