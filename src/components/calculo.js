@@ -84,10 +84,7 @@ function leer(){
 
     for (let i = 0; i < libros.length; i++) {
         
-        let titulo = libros[i].titulo;
-        let descripcion = libros[i].descripcion;
-        let precio = libros[i].precio;
-
+        let sumaT = suma[i].campo1+campo2+campo3;
         document.getElementById('tbody').innerHTML += 
         ` 
         <div class="input-group mb-3">
