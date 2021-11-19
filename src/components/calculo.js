@@ -1,5 +1,5 @@
 let miFormulario = document.getElementById('form');
-miFormulario.addEventListener('submit',sumar);
+// miFormulario.addEventListener('submit',sumar);
 //  Función para capturar valores del campo, y calcularlos
 function sumar(e) {
     e.preventDefault();
@@ -20,3 +20,4 @@ function sumar(e) {
         </div>`);
     }
 }
+miFormulario.addEventListener('submit',sumar);
