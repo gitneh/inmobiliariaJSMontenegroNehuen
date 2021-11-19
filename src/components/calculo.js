@@ -8,10 +8,7 @@ function sumar(e) {
 //  Evitar que los campos queden en blanco   
 let sumaT = (campo1+campo2+campo3);
 let comision = Math.round (sumaT * 0.4);
-if (campo1 !="" && campo2 !="" && campo3 !="") {
-
-    }else if(
-        comision = isNaN(comision))
+if (campo1 !="" && campo2 !="" && campo3 !="")
                         { $("#tbody").append(`<div>
                         <h3>El valor de la comisión es de $${comision}</h3>
                         </div>`);
