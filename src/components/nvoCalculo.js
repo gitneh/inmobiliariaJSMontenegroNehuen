@@ -4,6 +4,7 @@ let contratos = [];
 $.getJSON('datos.json', function (data) {
     mostrarContratos (data)
 })
+
 mostrarContratos(contratos)
 function mostrarContratos (array){
     for (const contrato of array) {
@@ -16,6 +17,8 @@ function mostrarContratos (array){
         contenedorContratos.appendChild(div)
     }
 }
+
+
 
 function agregarContrato () {
 
