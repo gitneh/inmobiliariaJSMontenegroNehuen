@@ -7,9 +7,9 @@ function sumar(e) {
     let campo2 = parseFloat (document.getElementById('campo2').value);
     let campo3 = parseFloat (document.getElementById('campo3').value);
 
-    let sumaT = campo1+campo2+campo3
- 
-}
-$("#tbody").apend(`<div>
+    let sumaT = campo1+campo2+campo3;
+    $("#tbody").apend(`<div>
 <h3>La suma total del contrato es de $${sumaT}</h3>
 </div>`);
+ 
+}
