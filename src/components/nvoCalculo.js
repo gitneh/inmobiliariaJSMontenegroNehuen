@@ -10,7 +10,7 @@ $.getJSON('data/datos.json', function (data) {
 mostrarContratos(contratos)
 function mostrarContratos (array){
     for (const contrato of array) {
-                 $("#contratosJSON").prepend(`<div>
+                 $("#contratosJSON").append(`<div>
                                          <h4> ID: ${contrato.idContrato} </h4>
                                          <p> Nombre: ${contrato.nombre}</p>
                                          <p> $ ${contrato.valorContrato}</p>
