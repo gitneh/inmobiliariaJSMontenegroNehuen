@@ -3,9 +3,9 @@ miFormulario.addEventListener('submit',sumar);
 
 function sumar(e) {
     e.preventDefault();
-    let campo1 = parseInt (document.getElementById('campo1').value);
-    let campo2 = parseInt (document.getElementById('campo2').value);
-    let campo3 = parseInt (document.getElementById('campo3').value);
+    let campo1 = parseFloat (document.getElementById('campo1').value);
+    let campo2 = parseFloat (document.getElementById('campo2').value);
+    let campo3 = parseFloat (document.getElementById('campo3').value);
 
     let sumaT = campo1+campo2+campo3
     console.log(sumaT)
