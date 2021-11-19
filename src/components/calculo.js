@@ -2,7 +2,7 @@ let miFormulario = document.getElementById('form');
 miFormulario.addEventListener('submit',sumar);
 
 function sumar(e) {
-    // e.preventDefault();
+    e.preventDefault();
     let campo1 = parseFloat (document.getElementById('campo1').value);
     let campo2 = parseFloat (document.getElementById('campo2').value);
     let campo3 = parseFloat (document.getElementById('campo3').value);
