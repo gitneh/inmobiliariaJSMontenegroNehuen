@@ -8,7 +8,7 @@ function sumar(e) {
 //  Evitar que los campos queden en blanco   
 let sumaT = (campo1+campo2+campo3);
 let comision = Math.round (sumaT * 0.4);
-if (campo1 =="" && campo2 =="" && campo3 ==""){
+if (isNaN (comision)){
                             $("#tbody").append(`<div>
                             <h3>Debe ingresar el valor anual del contrato en los campos especificados</h3>
                             </div>`);
