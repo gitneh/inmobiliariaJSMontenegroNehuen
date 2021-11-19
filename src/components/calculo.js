@@ -9,7 +9,7 @@ function sumar(e) {
 //  Evitar que los campos queden en blanco   
     if ((campo1 !="") && (campo2 !="") && (campo3 !="")) {
         let sumaT = (campo1+campo2+campo3);
-        let comision = (sumaT * 0.4);
+        let comision = Math.round (sumaT * 0.4);
 //  Colocar el resultado en el HTML
     $("#tbody").append(`<div>
                         <h3>El valor de la comisión es de $${comision}</h3>
