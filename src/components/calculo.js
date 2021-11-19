@@ -8,7 +8,7 @@ function sumar(e) {
     let campo3 = parseFloat (document.getElementById('campo3').value);
 
     let sumaT = parseFloat (campo1+campo2+campo3);
-    let comision = parseFloat (sumaT * 0.40);
+    let comision = parseFloat (sumaT * 0.4);
     
 $("#tbody").append(`<div>
                     <h3>El valor de la comisión es de $${comision}</h3>
