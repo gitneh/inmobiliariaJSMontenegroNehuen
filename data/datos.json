@@ -1,31 +1,21 @@
 [
     {
-        "idContrato": 123,
+        "idContrato":1,
         "nombre": "Juan Espinoza",
         "valorContrato": 20000
     },
     {
-        "idContrato": 124,
-        "nombre":"Maria de las Nieves",
-        "valorContrato": 30000
-    },
-    {
-        "idContrato":125,
-        "nombre":"Josefa Viñedos",
-        "valorContrato": 15200
-    },
-    {
-        "idContrato":126,
+        "idContrato":2,
         "nombre":"Maria Juana",
         "valorContrato": 15000
     },
     {
-        "idContrato":127,
+        "idContrato":3,
         "nombre":"Roberto Carlos",
         "valorContrato": 15340
     },
     {
-        "idContrato":128,
+        "idContrato":4,
         "nombre":"Pedro Pérez",
         "valorContrato": 15090
     }
