@@ -15,6 +15,5 @@ function mostrarContratos (array){
                                          <p> Nombre: ${contrato.nombre}</p>
                                          <b> $ ${contrato.valorContrato}</b>
                                          </div>`);
-                $("#contratosJSON").fadeIn(2000);
     }
 }
