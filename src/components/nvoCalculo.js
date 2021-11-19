@@ -18,6 +18,3 @@ function mostrarContratos (array){
                 $("#contratosJSON").fadeIn(2000);
     }
 }
-$("#botonC").click (()=>{
-    $("contratosJSON").toggle("fast");
-})
