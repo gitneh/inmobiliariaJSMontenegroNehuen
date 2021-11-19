@@ -1,12 +1,12 @@
 const contenedorContratos = document.getElementById ('contratosJSON');
 
 let contratos =[];
-
+// Llamada asíncrona
 $.getJSON('data/datos.json', function (data) {
     console.log(data)
     mostrarContratos (data)
 })
-
+// Uso del JSON para agregarlo al HTML
 mostrarContratos(contratos)
 function mostrarContratos (array){
     for (const contrato of array) {
