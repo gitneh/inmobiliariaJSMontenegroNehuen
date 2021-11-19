@@ -6,7 +6,7 @@ function sumar(e) {
     let campo1 = parseFloat (document.getElementById('campo1').value);
     let campo2 = parseFloat (document.getElementById('campo2').value);
     let campo3 = parseFloat (document.getElementById('campo3').value);
-    if ((campo1 !='') && (campo2 !='') && (campo3 !='')){
+    if ((campo1 !="") && (campo2 !="") && (campo3 !="")){
         let sumaT = parseFloat (campo1+campo2+campo3);
         let comision = parseFloat (sumaT * 0.4);
         
