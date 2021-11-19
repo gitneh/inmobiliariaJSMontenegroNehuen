@@ -20,4 +20,3 @@ function sumar(e) {
         </div>`);
     }
 }
-console.log(sumar)
