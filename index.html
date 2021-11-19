@@ -17,6 +17,13 @@
             <div class="container-fluid header">
               <a class="navbar-brand" href="index.html"><img src="images/logo.png" class="img img__fluid" alt="Logo"></a>
             </div>
+            <div class="divVacio collapse navbar-collapse" id="navbarNavDropdown">
+              <ul class="navbar-nav divVacio">
+                <li class="nav-item">
+                  <a class="nav-link h3 active" aria-current="page">Bienvenido a Inmobiliaria Robin</a>
+                </li>
+              </ul>
+            </div>
           </nav>
     </header>
     <div class="centrar">
@@ -84,44 +91,6 @@
                 </div>
       </div><br>
       
-    <div class="accordion-item">
-      <h1 class="accordion-header" id="headingThree">
-        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-         <p class="h5 colorSection"> Calcula la comisión inmobiliaria </p>
-        </button>
-      </h1>
-      <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
-        <div class="accordion-body colorBack">
-            <form id="form">
-              <div class="col-md-6">
-              <label for="validationCustom03" class="form-label"><strong>Indique el precio del primer año de contrato</strong></label>
-              <div class="input-group mb-3">
-                <span class="input-group-text">$</span>
-                <input type="number" id="campo1" class="form-control" aria-label="Amount (to the nearest dollar)">
-                <span class="input-group-text">.00</span>
-              </div>
-            </div>
-            <div class="col-md-6">
-              <label for="validationCustom03" class="form-label"><strong>Indique el precio del segundo año de contrato</strong></label>
-              <div class="input-group mb-3">
-                <span class="input-group-text">$</span>
-                <input type="number" id="campo2" class="form-control" aria-label="Amount (to the nearest dollar)">
-                <span class="input-group-text">.00</span>
-              </div>
-            </div>
-            <div class="col-md-6">
-              <label for="validationCustom03" class="form-label"><strong>Indique el precio del tercer año de contrato</strong></label>
-              <div class="input-group mb-3">
-                <span class="input-group-text">$</span>
-                <input type="number" id="campo3" class="form-control" aria-label="Amount (to the nearest dollar)">
-                <span class="input-group-text">.00</span>
-              </div>
-            </div>
-
-            <div class="">
-              <button class="btn btn-success" type="submit">Sumar</button>
-            </div><br>
-
             
         <footer class="text-center grad">
           <div class="divVacio">
@@ -159,7 +128,6 @@
             <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
             <script src="src/components/nvoCalculo.js"></script>
             <script src="src/components/calculo.js"></script>
-            <script src="src/components/nuevoContrato.js"></script>
             <script src="comision.js"></script>
         </body>
 </html>
