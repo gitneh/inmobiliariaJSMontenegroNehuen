@@ -22,7 +22,6 @@ function crear(e) {
     leer();
     document.getElementById('form').reset();
 
-}
 
 function leer(){
 
@@ -46,4 +45,4 @@ function leer(){
         `
     }
 }
-leer();
+}
